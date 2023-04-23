@@ -1,3 +1,5 @@
+// To nag us about going outside via indicatrory of the weather
+
 const raining = true;
 const cold = false;
 
