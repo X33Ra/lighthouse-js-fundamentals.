@@ -2,10 +2,10 @@
  
 const whichSchool = function(age) {
 // code here
-if (whichSchool < 13){
-  console.log('you are currently', whichSchool,'you belong to Elementary school')
-  } else if(whichSchool >= 13 && whichSchool <= 18) {
-    console.log('You are currently', whichSchool, ' you belong to Second School')
+if (age < 13){
+  console.log('you are currently', age,'you belong to Elementary school')
+  } else if(age >= 13 && age <= 18) {
+    console.log('You are currently', age, ' you belong to Second School')
   } else {
     console.log('you do not belong in any groups do try Lighthouse')
   } 
