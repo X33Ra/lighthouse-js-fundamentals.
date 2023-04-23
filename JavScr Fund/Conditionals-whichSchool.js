@@ -1,6 +1,6 @@
 //In this challenge, we will write some logic to help learners decide which school they should attend.
  
-function(age) {
+const whichSchool = function(age) {
 // code here
 if (age < 13){
   return('Elementary School')
