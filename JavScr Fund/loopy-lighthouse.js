@@ -11,7 +11,7 @@ for (let i = 100; i <= 200; i ++){
     console.log('Lighthouse')
   } else if (i % 3 === 0){
     console.log('Loopy')
-  } else {
+  } else { 
     console.log(i)
   }
 } 
