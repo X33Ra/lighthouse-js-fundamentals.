@@ -1,9 +1,32 @@
 // make it go count age
 
-function ageCalculator(name, yearofBirth, currentYear){
-  let age = currentYear - yearofBirth
-  return name + ' is ' + age + ' years old.'
+function calculateRectangleArea(length, width) {
+  if ((length < 0) || (width < 0)){
+    return undefined;
+  }
+  return length * width;
+}
+function calculateTriangleArea(base, height) {
+  if ((base < 0) || (height < 0)){
+    return undefined;
+  }
+  return (base * height) / 2;
+}
+function calculateCircleArea(radius) {
+  if ((radius < 0)){
+    return undefined;
+  }
+  return Math.PI * (radius * radius);
 }
 
-console.log(ageCalculator("Miranda", 1983, 2015));
-console.log(ageCalculator("Ferdinand", 1988, 2015));
+console.log(calculateRectangleArea(10, 5));
+console.log(calculateRectangleArea(1.5, 2.5));
+console.log(calculateRectangleArea(10, -5)); 
+
+console.log(calculateTriangleArea(10, 5));
+console.log(calculateTriangleArea(3, 2.5));
+console.log(calculateTriangleArea(10, -5)); 
+
+console.log(calculateCircleArea(10)); 
+console.log(calculateCircleArea(3.5)); 
+console.log(calculateCircleArea(-1)); 
