@@ -5,4 +5,4 @@ seasons.push("winter");
 
 console.log(length);
 console.log(seasons.length);
-  
+       
